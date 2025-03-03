@@ -1,6 +1,6 @@
 boolean isCapitalized(String s) {
   if (s == null) {
-    throw new RuntimeException("Null String");
+    throw new NullPointerException();
   }
   if (s.equals("")) {
     return true;
